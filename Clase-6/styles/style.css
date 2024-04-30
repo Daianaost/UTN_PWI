@@ -1,0 +1,17 @@
+p{
+    color: blue ;
+}
+.especial {
+    color: rgb(0, 0, 0);
+}
+#btn-super-especial{
+    color: aqua;
+}
+.especial-super-especial{
+    background-color: blueviolet;
+}
+/*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}*/
+
+

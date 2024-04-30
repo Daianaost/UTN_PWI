@@ -1,27 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <form >
+    <form>
         <h2>Informacion de usuario </h2>
         <div>
-        <label for="username" >Escribe tu nombre</label>
-        <input type="text" id="#username" placeholder="Daiana " required maxlength="16">
+            <label for="username">Escribe tu nombre</label>
+            <input type="text" id="#username" placeholder="Daiana " required maxlength="16">
+        </div>
+        <div>
+            <label for="password">escribi tu contraseña</label>
+            <input type="password" id="password" required minlength="5">
+        </div>
+        <!--clase5-->
+        <div>
+            <label for="">ingresa tu email </label>
+            <input type="email" id="email">
+
+        </div>
+        <div>
+            <label for="">ingrese fecha</label>
+            <input type="date" name="" id="">
+            <input type="datetime" name="" id="">
+            <input type="datetime-local">
+            <input type="time" name="" id="">
+            <input type="number" name="" id="" max="20">
+            <input type="range" name="" id="" max="10" min="0">
+        
+        </div>
+        <div>
+            <label for="terms">terminos  y condiciones</label>
+            <input type="checkbox" name="" id="terms">
+        </div>
+<div>
+    <h2>que te gusta?</h2>
+
+    <label for="html">HTML</label>
+    <input type="checkbox" name="" id="html">
+    <label for="css">css</label>
+    <input type="checkbox" name="" id="css">
+    <label for="js">js</label>
+    <input type="checkbox" name="" id="js">
     </div>
     <div>
-        <label for="password">escribi tu contraseña</label>
-        <input type="password" id="password" required minlength="5">
-    </div>
-    <button type="submit">enviar </button> <!--otra forma -->
-    <input type="submit" value="confirmar ">
-    <button type="reset"> reinicio</button>
+        <h2>que te gusta?</h2>
+    
+        <label for="html">HTML</label>
+        <input type="radio" name="tecnologia" id="html">
+        <label for="css">css</label>
+        <input type="radio" name="tecnologia" id="css">
+        <label for="js">js</label>
+        <input type="radio" name="tecnologia" id="js">
+        </div>
+        <div>
+            <label for="mensaje">mensaje</label>
+            <textarea placeholder="hola" required rows="5" cols="7"> hola</textarea>
+        </div>
+        <div>
+            <label for="pais">seleccione un  pais</label>
+            <select name="" id="pais">
+                <option value="ar">ARGENTINA</option>
+                <option value="fr">FRANCIA</option>
+                <option value="null" selected disabled>no selecc.</option>
+            </select>
+        </div>
+
+        <button type="submit">enviar </button> <!--otra forma//clase4 -->
+        <input type="submit" value="confirmar ">
+        <button type="reset"> reinicio</button>
 
     </form>
-    
-    
+
+
 </body>
+
 </html>
