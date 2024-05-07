@@ -1,0 +1,30 @@
+* {
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.padre {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: aqua;
+    gap: 80px 40px;
+    /* row   column*/
+    /*column gap:40px;
+    row-gap;80px;*/
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hijos {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+    
+}
