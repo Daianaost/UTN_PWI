@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
-
+@import url('./fonts.css');
 
 
 h1 {
-    font-family: "Sevillana", cursive;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     color: rgb(68, 4, 127);
     font-size: 60px;
     /*px es una unidad minima en la web que representa tamaños/dimensiones*/
@@ -15,8 +16,3 @@ h1 {
 
 }
 
-.titulo {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}

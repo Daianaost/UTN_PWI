@@ -1,0 +1,85 @@
+/*padding o margin (formas): para todos los ejes
+propiedad: <ejey> eje x>
+propiedad <top> <eje x> <bottom>
+propiedad :<top> <right> <bottom> <left>*/
+/*NORMALIZED (CSS):*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.caja {
+
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-top: 100px;
+    /*espacio.se mueve hacia abjo , arriba , izq o derecha. es el espacio que va del borde hacia afuera*/
+    border: 5px dashed blue;
+    /* grosor , tipo: solid , dashes , double , inset , outset. COLOR*/
+    /*  border-left: 5px dashed aqua;
+padding: 10px;/*espacio que define para todos los lados pero desde adentro.border hacia adentro
+padding-left:20px ;*/
+    padding: 15px 30px 28px 40px;
+    /*1 vertical 2horizontal 2 el de abajo 3 izquierda*/
+    box-shadow: 20px 40px 3px 10px black;
+    /* tiene que tener un orden.  el 3 valor es la difuminacion de la 2--shadowCSS--*/
+    inset: 0px 0px 10px white;
+    /*tiene q tener un orden*/
+    border-radius: 50%;
+
+}
+
+span {
+    /* en general los elemenso de linea no tienen  margin ni padding PERO sino display in line block*/
+    display: inline-block;
+    background-color: violet;
+    margin left: 20px;
+
+
+
+}
+
+header {
+    background-color: #ffe600;
+    padding: 32px;
+
+}
+
+header input {
+    width: 344px;
+    padding: 10px 15px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 2);
+    border-radius: 2px;
+    border: 1px solid transparent;
+
+}
+
+header input: :focus-visible {
+    outline: none;
+border: 1px solid #3483fa
+}
+
+header .buscador::placeholder {
+    color: #999;
+}
+a{
+    color: black;
+    background-color: #999;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700px;
+}
+a:hover{
+    background-color: aqua;
+    font-size: 20px;
+    transition: 1s ease-in-out;
+}

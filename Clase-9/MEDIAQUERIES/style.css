@@ -1,0 +1,37 @@
+/*mobile  first - quizas la mas impo - 
+dice que tenemos que emepxar desarrollando desde la panatlla de un celular 
+ya que la mayoria de los usuarios accedian desde un celular . Aun que no siempre tengan que empezar por mobile
+sino por DESKTOP FIRST. preguntandose que hace mi applicacion , a quienes va dirigido */
+
+/*  MOBILE FIRST:  1 Cual seria la vista mas correcta ? en general trabajar con reactivo para poder yo poner mi medida 
+el minimo ancho es 320 , (280)*/
+/* hacemos mobile */
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.padre {
+
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.padre .hijos {
+    width: 80vw;
+    height: 200px;
+    background-color: rgb(139, 40, 233);
+    border: 1px solid black;
+}
+
+/*cuando el ancho de mi pantalla sea mayor a 1000 se aplica el background. SIEMPRE PONERLA ABAJO DE TODO */
+@media screen and (min-width: 1000px) {
+    .padre {
+        background-color: aqua;
+    }
+.padre .hijos{background-color: black;}
+}

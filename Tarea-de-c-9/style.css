@@ -1,0 +1,101 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+:root {
+    --text-primary: "DM Sans", sans-serif;
+}
+
+body {
+    background-color: #673de6;
+}
+
+.girl-pic img {
+    width: 500px;
+    display: flex;
+    position: absolute;
+    top: 50px;
+}
+
+section .encabezado h1 {
+    display: flex;
+    justify-content: flex-end;
+
+    margin: 10px;
+    padding: 10px;
+    left: 20%;
+    font-family: var(--text-primary);
+
+}
+
+@media screen and(max-width:1600px) {
+    section .encabezado h1 {
+
+       flex-direction: column;
+ }
+}
+
+section .list {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: flex-end;
+
+}
+
+section .list li {
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    font-size: var(--text-primary);
+    font-size: 16px;
+}
+
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.cards .tarjeta-1 {
+    overflow: hidden;
+    width: 25%;
+    margin: 10px;
+    border: 5px solid #4613de;
+    position: relative;
+    top: 100px;
+    background-color: #4613de;
+
+
+}
+
+.cards .tarjeta-2 {
+    overflow: hidden;
+    width: 25%;
+    margin: 10px;
+    border: 5px solid#4613de;
+    position: relative;
+    top: 100px;
+    background-color: #4613de;
+}
+
+.cards .tarjeta-3 {
+    overflow: hidden;
+    width: 25%;
+    margin: 10px;
+    border: 5px solid#4613de;
+    position: relative;
+    top: 100px;
+    background-color: #4613de;
+
+}
