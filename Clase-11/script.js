@@ -1,6 +1,6 @@
 /* operadores logicos
 !not> negacion (devuelve el valor opuesto del booleano del dato )
-and >  y  logico 
+and &&   y  logico 
 or ||  > o logico 
 
 ejemplo de ! NOT
@@ -15,10 +15,10 @@ AND
 SI EL PRIMER VALOR ES thruly devuelve el segundo cvalor sino devuelve el segundo 
 se tienen que cumplir ambas condiciones 
 tablas de la verdad
-or : true || true  es true 
+or :    true || true  es true 
         false || true  es true 
         true || false es true
-        false || false  es false 
+        false ||jkgf6 false  es false 
         
         AND
         TRUE AND TRUE es true 

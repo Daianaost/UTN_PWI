@@ -62,6 +62,11 @@ for( let iterador  = 1; iterador <= 3; iterador = iterador +1  ){
 }
 alert(ListaDeNumeros  )
 alert(SumaDeNumeros) */
+
+
+
+
+
 /* vamos a solicitar al usuario una cantidadDeRepeticiones
 vamos a solicitar un numero la cantidad de repeticiones ingresada por el usuario, al finalizar mostrar el resultado de la sumatoria entre los 3 numeros
 validar que el numero ingresado sea un numero, en caso de que no volver a solicitarlo
@@ -81,6 +86,10 @@ while(!numero || isNaN (numero)){
 suma = suma + Number(numero)
 }
 alert('resultado' + suma) */
+
+
+
+
 /* FUNCIONES ej 
 declaracion de funcion : 
 function saludar() {
