@@ -21,7 +21,7 @@ const productos = [
         thumbnail: 'https://images.samsung.com/is/image/samsung/p6pim/ar/feature/164555231/ar-feature-experience-the-wow-ofneo-qled-536472255?$FB_TYPE_K_JPG$'
     }
 ]
-const productosHTML = document.getElementById('productos')
+const productosHTML = document.getElementById('carrito')
 let plantillaProductos = ''
 for (const producto of productos) {
     plantillaProductos = plantillaProductos + `
@@ -55,7 +55,7 @@ Div
     span: Total: ${precio * cantidad}
 */
 
-const arrayCarrito = [
+const arrayProductos = [
     {
         nombre: 'computadora Samsung',
         id: 1,
@@ -78,17 +78,18 @@ const arrayCarrito = [
         thumbnail: 'https://images.samsung.com/is/image/samsung/p6pim/ar/feature/164555231/ar-feature-experience-the-wow-ofneo-qled-536472255?$FB_TYPE_K_JPG$'
     }
 ]
-const arrayCarritoHTML = document.getElementById('carrito')
+const arrayProductosHTML = document.getElementById('carrito')
 let productosCarrito = ''
 
-for (carrito of arrayCarrito) {
+for (let producto of arrayProductos) {
     productosCarrito = productosCarrito + `<div> 
-    <h3> nombre: ${carrito.nombre} id: ${carrito.id}</h3>
-    <img width='100px' src="${carrito.thumbnail}"/>
-    <span> precio unitario :${carrito.precio} total : ${arrayCarrito.precio*arrayCarrito.cantidad} </span>
+    <h3> nombre: ${producto.nombre} id: ${producto.id}</h3>
+    <img width='100px' src="${producto.thumbnail}"/>
+    <span> precio unitario :${producto.precio} total : ${producto.precio*producto.cantidad} </span>
     </div>`
 }
-arrayCarritoHTML.innerHTML = productosCarrito
+console.log(productosCarrito)
+arrayProductosHTML.innerHTML = productosCarrito
 
 
 

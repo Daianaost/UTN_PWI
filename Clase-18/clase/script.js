@@ -46,7 +46,7 @@ const usuario = {
 document.getElementById('usuario-caja')
 usuarioCaja.innerHTML = `<h2> nombre completo: ${usuario.nombre}${usuario.apellido}</h2>
 <span>direccion: ${usuario.direccion} edad: ${usuario.edad}</span>`
-console.dir(usuarioCaja)
+
 
 
 
