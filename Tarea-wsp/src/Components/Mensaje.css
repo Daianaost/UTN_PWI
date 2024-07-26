@@ -1,0 +1,28 @@
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 200px;
+    margin: 10px;
+
+}
+.author{
+    border-radius: 5px;
+    
+}
+.content{
+    padding: 10px;
+    position: relative;
+    
+}
+
+.author {
+    font-size: 0.85em;
+    color: #555;
+}
+.contenedor-teclado{
+    display: flex;
+    border: 1px solid;
+}

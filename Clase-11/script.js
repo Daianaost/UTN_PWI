@@ -1,4 +1,4 @@
-c
+
 /* operadores logicos
 !not> negacion (devuelve el valor opuesto del booleano del dato )
 and &&   y  logico 
